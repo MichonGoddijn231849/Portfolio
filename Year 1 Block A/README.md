@@ -34,8 +34,7 @@ The analysis focused on e-waste recycling metrics across different countries:
 ├── data_analysis_MichonGoddijn.ipynb    # Python analysis notebook
 ├── data_countries.xlsx                   # SDG dataset
 ├── visualizations/                       # Dashboard screenshots
-│   └── dashboard_overview.png
-├── requirements.txt                      # Python dependencies
+│   └── dashboard_overview.png                     # Python dependencies
 └── README.md                             # Project documentation
 ```
 
