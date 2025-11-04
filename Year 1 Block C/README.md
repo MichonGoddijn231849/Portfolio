@@ -80,11 +80,9 @@ SeaSpotter provides quick, accurate identification with transparent explanations
 
 ## 📁 Project Structure
 ```
-seaspotter/
 ├── CreativeBrief_MichonGoddijn_[number].ipynb
 ├── requirements.txt
 ├── README.md
-├── .gitignore
 ├── dataset/
 │   └── sample_images/
 │       ├── seals/
