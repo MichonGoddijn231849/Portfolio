@@ -160,7 +160,6 @@ The group policy paper integrated my qualitative findings with quantitative surv
 
 ## 📁 Repository Structure
 ```
-chatbot-consumer-attitudes-research/
 ├── analysis/
 │   ├── Qualitative_Analysis_Michon_Goddijn_231849.ipynb
 │   └── Quantitative_Analysis_Michon_Goddijn_231849.ipynb
