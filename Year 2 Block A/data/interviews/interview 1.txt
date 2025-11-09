@@ -1,0 +1,45 @@
+Build-up Questions
+
+Question 1:
+
+Interviewer: Thank you for taking the time to speak with me today. Can you tell me about your general experiences with customer service?
+
+Interviewee: Overall, I have good experiences with companies' customer service. I find them handy because you can get a quick answer when you have a question without people having to be on the other end. So, a good experience.
+
+Question 2:
+
+Interviewer: How often do you use customer support, via chatbots or human agents?
+
+Interviewee: Occasionally. If I have problems with something or if something isn't working, then I contact the chatbot or a human agent. So yes, not very often, but occasionally.
+
+Question 3:
+
+Interviewer: Which channels do you usually prefer when contacting customer service—phone, email, live chat, or others?
+
+Interviewee: I usually use the chatbots on websites. Also, sometimes via WhatsApp, you have those chatbots that then connect you with real people. So mostly the website, actually.
+
+Research Questions
+
+Question 4:
+
+Interviewer: Can you describe a situation where a chatbot met or did not meet your expectations in solving a problem? How did this experience affect your trust in the company?
+
+Interviewee: I haven't had any specific bad experiences with chatbots, but if I were to ask a question to a company's chatbot and it couldn't give me an answer, then my trust in the company wouldn't improve. Then the trust would become worse.
+
+Question 5:
+
+Interviewer: How important is the accuracy of the answers from chatbots and human customer service agents for your overall satisfaction and trust in the service provided?
+
+Interviewee: The accuracy is quite important for my satisfaction. It's just irritating if you have to keep indicating things again if they have it wrong, for example. If you have to provide information again or so. So if that's done accurately and all done right in one go, then I'm more satisfied, and it also takes less time. Much easier.
+
+Question 6:
+
+Interviewer: What differences have you noticed in the way chatbots and human agents handle complex or tricky questions? How do these differences affect your trust in the company's customer support?
+
+Interviewee: I think that people can read the intent of your message better than, for example, chatbots, and that they can understand you better with tricky questions. That gives you more trust and satisfaction with the company, of course, if they understand you well with tricky questions.
+
+Question 7:
+
+Interviewer: How important is it to you that a chatbot can seamlessly connect you to a human agent when it cannot solve your problem? What does this capability mean for your trust in the company's customer service?
+
+Interviewee: I think it's very important that if a chatbot can't solve the problem, that it can connect you well with someone in real life. Because otherwise, you're talking back and forth with the chatbot all the time, and it just doesn't work, and then it all takes very long. That's very annoying. So if it can then forward you to someone who can help you, that's very handy. And then, yes, that's of course much nicer, and then you have more trust that it's going to be okay.

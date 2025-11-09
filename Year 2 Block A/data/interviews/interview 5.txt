@@ -1,0 +1,79 @@
+Build-up Questions
+
+Question 1:
+
+Interviewer: Thank you for taking the time to speak with me today. Could you share a bit about your general experiences with customer service?
+
+Interviewee: Of course, I can share some more about it.
+
+Interviewer: Okay, so what do you have to say about it?
+
+Interviewee: I absolutely despise it, and I really hate customer bots.
+
+Interviewer: No, I'm talking about customer service in general.
+
+Interviewee: Oh. Often they are pretty good.
+
+Interviewer: Okay.
+
+Interviewee: And they try to sell you stuff.
+
+Question 2:
+
+Interviewer: And how frequently do you use customer support services, whether through chatbots or with humans?
+
+Interviewee: I often use it when returning products.
+
+Question 3:
+
+Interviewer: Okay. Which channels do you prefer when you contact customer service—phone, email, live chat, or something else?
+
+Interviewee: I often prefer email, and chats also work.
+
+Research Questions
+
+Question 4:
+
+Interviewer: Could you describe a situation where a chatbot either met or failed to meet your expectations in resolving an issue? And how did that experience shape your trust in the company?
+
+Interviewee: Um, could you repeat that question, please?
+
+Interviewer: Can you describe a situation where a chatbot either met or failed to meet your expectations in resolving an issue, and how did that experience—well, like, how was your trust in the company after that experience, basically?
+
+Interviewee: Alright, so I did have some experience with chatbots where if you type something, they just completely don't understand it and are going to send you stuff that you don't even want to see. You just want to speak to a human because that one can actually communicate like a normal person. So that's kind of annoying when you're trying to ask something, but you don't get the right answer from the bot.
+
+Question 5:
+
+Interviewer: Okay. In your interactions with chatbots and human customer service, how important is the accuracy of the responses to your overall satisfaction and trust in the service provided?
+
+Interviewee: I think the accuracy should be about 100% because otherwise, I don't understand why you would use the chatbot. I think if actual APIs were used that are actually good language models, we should actually be able to get good answers. But the shady ones that just try to understand a few words from your sentence and then try to give you a general answer don't work really well.
+
+Interviewer: Okay. So you would say accuracy is really important then?
+
+Interviewee: Yeah, it really is. I mean, humans are more expensive to hire, of course. But yeah, if you want to keep customers happy, you should either get a bot that actually can help you or just hire humans to do it.
+
+Question 6:
+
+Interviewer: Alright, and what differences have you noticed in the way chatbots and humans handle complex or tricky questions? And how do these differences relate to your trust in the company's customer support?
+
+Interviewee: Do you mean like what changed over the years or...?
+
+Interviewer: No, more like, how do you notice the way chatbots and humans handle tricky, complex questions—not just standard questions?
+
+Interviewee: I think both often—it depends on size how good they are—but often they give really general answers, like pre-written answers, sometimes they feel like, rather than actually being able to answer your questions right. Whereas humans can actually answer it correctly.
+
+Interviewer: Okay. And how would you say that those differences affect your trust in the company?
+
+Interviewee: I'm not sure about the actual trust, but they definitely change the view, I reckon. Since, like, if you have a bad experience with—I don't know—maybe your products got delivered wrong or it didn't get delivered, and you're just trying to get it sorted out, you just keep speaking to a bot that doesn't understand you. I think that's pretty annoying, and it could result in someone not buying products there again, I reckon.
+
+Question 7:
+
+Interviewer: Yeah, I understand. How important is it to you that a chatbot can seamlessly transfer you to a human when it cannot resolve your issue? And if it's possible to do that, what does that mean for your trust in a company's customer support service?
+
+Interviewee: Sorry, can you repeat that question one more time?
+
+Interviewer: Of course. How important is it to you that the chatbot can seamlessly transfer you to a human, like in a live chat, for example, when it cannot resolve your issue? And what does that mean for your trust in the company's customer service?
+
+Interviewee: I think it's really important that it's able to transfer to the human pretty quick if it does not understand. Like, if you just keep going in a loop, having to try to explain the question to a bot multiple times, I think that's just—it's already annoying you have to contact customer support. If you get a bot that doesn't understand you for like six times in a row, it just gets more and more annoying. So if it's able to just quickly—'Yo, I'm getting a human,' you know, like connecting you to a human—I think that's really important. Definitely if you already have a mad customer, right, you don't want to annoy them anymore.
+
+Interviewer: Yeah. Okay, well, those are all the questions. Thank you for your time today.

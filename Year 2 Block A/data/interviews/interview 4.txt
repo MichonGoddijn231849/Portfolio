@@ -1,0 +1,51 @@
+Build-up Questions
+
+Question 1:
+
+Interviewer: Thank you for taking the time to speak with me today. Can you tell me about your general experiences with customer service?
+
+Interviewee: I certainly can. Recently, I've had a lot of experience with customer service because I've lost some accounts. But overall, I think it varies greatly by company whether the customer service is good. For example, with Supercell, I had some accounts that I lost, and they weren't active at all in helping, so to speak. But with Pokémon, I lost accounts, and they really did their best to retrieve things. So, I think it varies a lot per company.
+
+Question 2:
+
+Interviewer: Okay, and how often do you use customer support via chatbots or humans?
+
+Interviewee: Well, lately, as I said, quite a bit. I think in the past weeks, I've had contact certainly two or three times per week. But I can imagine that normally it's actually not much, but lately quite a lot.
+
+Question 3:
+
+Interviewer: Okay, which channels do you usually prefer when you contact customer service—phone, email, live chat, or something else?
+
+Interviewee: Well, I prefer to use live chat. But few companies have the option of a live chat. Otherwise, I think the phone, because email is quite slow in general and it usually takes longer for companies to respond.
+
+Research Questions
+
+Question 4:
+
+Interviewer: Okay, can you describe a situation where a chatbot met or did not meet your expectations in solving a problem? And how did this experience affect your trust in the company?
+
+Interviewee: Well, I'll use a company as an example—Supercell. I used the chatbot to try to change my email to another email. But yeah, that chatbot was just terrible. It had all those standard responses that really added nothing to the conversation. So then you tried to say something, but the chatbot just gave a completely different answer. So I think that gave me a negative image of the company.
+
+Question 5:
+
+Interviewer: Okay, and how important is the accuracy of the answers from chatbots and humans for your overall satisfaction and trust in the service provided?
+
+Interviewee: I think it's very important, especially for a company—for both your profits and just in general how people think about your company. I think it's very important that those chatbots are good and that accurate answers are given to your questions. So I think it's very important.
+
+Question 6:
+
+Interviewer: Okay, and what differences have you noticed in the way chatbots and humans handle complex or tricky questions? How do these differences influence your trust in the company's customer support?
+
+Interviewee: Yes, how they handle complex or tricky questions. Well, often with chatbots, as I said, they just give automatic responses. And that's usually not really in line with my question, even when I ask tricky questions. And with human agents, it's naturally different because they really look at what the question is, and I think that works better in that area. So I think, yeah, that influences how I think about the company in the way they respond. So I think it's better to have a human agent who responds to my difficult question than a chatbot.
+
+Question 7:
+
+Interviewer: Okay, and how important is it for you that a chatbot can effortlessly connect you to a human when the chatbot cannot solve your problem? What does this capability mean for your trust in the company?
+
+Interviewee: Well, I think that these chatbots are certainly getting better and smarter, and I personally find it very nice if a chatbot can quickly connect me to a human agent from the company. And that would also solve my question faster and help me more easily. So I think it increases my trust in the company.
+
+Interviewer: Well, those were all the questions. Thank you for your time today.
+
+Interviewee: No problem. Have a nice day.
+
+Interviewer: Same to you.

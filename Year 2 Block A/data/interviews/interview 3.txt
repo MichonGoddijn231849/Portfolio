@@ -1,0 +1,63 @@
+Build-up Questions
+
+Question 1:
+
+Interviewer: Thank you for taking the time to speak with me today. Can you tell me about your general experiences with customer service?
+
+Interviewee: Yes, generally speaking, I call—or actually, I call less and less, but I approach customer service more and more via chat or email when I have questions or want something resolved.
+
+Question 2:
+
+Interviewer: Okay. How often do you use customer support via chatbots or humans?
+
+Interviewee: Well, how often is a bit of a difficult question, but with some regularity. It's mainly in the area of administrative matters. Well, there are various organizations from which I receive services and where I can occasionally ask my questions.
+
+Question 3:
+
+Interviewer: Which channels do you usually choose when contacting customer service—phone, email, live chat, or something else?
+
+Interviewee: Phone less and less, and chat and email more and more.
+
+Research Questions
+
+Question 4:
+
+Interviewer: Here come the actual questions. Can you describe a situation where a chatbot met or did not meet your expectations in solving a problem? How did this experience affect your trust in the company?
+
+Interviewee: Yes, what I find most challenging with chatbots is that they—at least, that's what I notice—provide answers to sort of standard questions. And as soon as I have more specific questions, then I have to quite quickly—or they ask, "Shall I connect you with someone who can help you?" So I don't always get there with a chatbot. It's less personal; it's less specific to my question. Yes, that.
+
+Interviewer: Okay, so that would make your trust a bit less.
+
+Interviewee: Well, if it's only—I've also experienced that—if it's only a chatbot that generates automated answers where I don't feel I can speak to someone about my problem, then that does affect my trust in the organization.
+
+Question 5:
+
+Interviewer: Okay. How important is the accuracy of the answers from chatbots and humans for your overall satisfaction and trust in the service provided?
+
+Interviewee: Yes, very important because, you know, in those responses, I feel truly heard with the question I have. And if someone responds very personally to that, then that's important for the trust I have in it.
+
+Question 6:
+
+Interviewer: Okay. What differences have you noticed in the way chatbots and humans handle tricky questions? How do these differences affect your trust in the company's customer support?
+
+Interviewee: Yes, I've kind of already said that. Chatbots are, yes, a sort of automatically generated answers to standard questions that occur frequently—I can imagine that. But ultimately, the live chat gives me the opportunity to go a bit more specifically into the question I have, and I feel more heard in that, and yes, I also get the answer I want.
+
+Interviewer: By "live chat," you mean with a human, okay. So if you only had a chatbot, then your trust would be somewhat less.
+
+Interviewee: Yes, yes.
+
+Question 7:
+
+Interviewer: Then the last question: How important is it to you that a chatbot can immediately connect you to a human when the chatbot cannot solve your problem? What does this capability mean for your trust in the company's customer service?
+
+Interviewee: Yes, well, I think I've implicitly already given the answer. It's important that that's possible—that if the automatic chatbot doesn't succeed or hears things in my question that it can't answer, that the question is then asked, "Do you want to continue talking with," well, with a live chat.
+
+Interviewer: Yes, or just with a human. Okay, well, thank you for your time.
+
+Interviewee: Yes. You're very welcome.
+
+
+
+
+
+
