@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  frontend:
+    build: .                     # uses the Dockerfile in this folder
+    container_name: frontend-new
+    # 👇 Environment variable baked into the Vite build
+    environment:
+      - VITE_API_BASE_URL=http://emotion-api:8000
+    ports:
+      - "3101:80"                # browse at http://SERVER-IP:3101
+    networks:
+      - emotion-net
+    restart: unless-stopped
+
+networks:
+  # 🔗 Tell Compose “this network already exists”
+  emotion-net:
+    external: true
+    name: nlp-1-demo_app-1_default   # ⇦ exact name you provided

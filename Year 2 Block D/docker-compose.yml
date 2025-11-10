@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  emotion-api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: michonai/nlpbackend:latest
+    env_file:
+      - .env
+    ports:
+      - "3100:8000"
+    volumes:
+      # Persist your HuggingFace‐downloaded models between restarts
+      - ./.hf_models:/app/.hf_models
+    restart: unless-stopped
+    
+    

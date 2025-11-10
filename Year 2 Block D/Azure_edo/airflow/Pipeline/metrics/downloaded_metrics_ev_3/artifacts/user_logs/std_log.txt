@@ -1,0 +1,289 @@
+CUDA available? True
+  0%|          | 0/13 [00:00<?, ?it/s]100%|██████████| 13/13 [00:00<00:00, 217.89it/s]
+{
+  "admiration": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8.0
+  },
+  "amusement": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6.0
+  },
+  "anger": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "annoyance": {
+    "precision": 0.04081632653061224,
+    "recall": 1.0,
+    "f1-score": 0.0784313725490196,
+    "support": 4.0
+  },
+  "approval": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5.0
+  },
+  "caring": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "confusion": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "curiosity": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "desire": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "disappointment": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5.0
+  },
+  "disapproval": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7.0
+  },
+  "disgust": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "embarrassment": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "excitement": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3.0
+  },
+  "fear": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5.0
+  },
+  "gratitude": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3.0
+  },
+  "grief": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "joy": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "love": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5.0
+  },
+  "nervousness": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "neutral": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "optimism": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "pride": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3.0
+  },
+  "realization": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "relief": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "remorse": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "sadness": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "surprise": {
+    "precision": 0.5,
+    "recall": 0.037037037037037035,
+    "f1-score": 0.06896551724137931,
+    "support": 27.0
+  },
+  "accuracy": 0.05,
+  "macro avg": {
+    "precision": 0.019314868804664726,
+    "recall": 0.037037037037037035,
+    "f1-score": 0.00526417463537139,
+    "support": 100.0
+  },
+  "weighted avg": {
+    "precision": 0.1366326530612245,
+    "recall": 0.05,
+    "f1-score": 0.0217579445571332,
+    "support": 100.0
+  },
+  "predictions": [
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "neutral",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "neutral",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance",
+    "annoyance"
+  ]
+}
+🏃 View run ev at: https://westeurope.api.azureml.ms/mlflow/v2.0/subscriptions/0a94de80-6d3b-49f2-b3e9-ec5818862801/resourceGroups/buas-y2/providers/Microsoft.MachineLearningServices/workspaces/NLP1-2025/#/experiments/f9901928-f08d-4feb-9308-2e9fb3cff5b7/runs/408ac829-04eb-4169-b838-0fa3d689b62d
+🧪 View experiment at: https://westeurope.api.azureml.ms/mlflow/v2.0/subscriptions/0a94de80-6d3b-49f2-b3e9-ec5818862801/resourceGroups/buas-y2/providers/Microsoft.MachineLearningServices/workspaces/NLP1-2025/#/experiments/f9901928-f08d-4feb-9308-2e9fb3cff5b7

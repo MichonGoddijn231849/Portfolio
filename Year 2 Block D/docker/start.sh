@@ -1,0 +1,3 @@
+exec gunicorn api.main:app \
+     -k uvicorn.workers.UvicornWorker \
+     -b 0.0.0.0:8000

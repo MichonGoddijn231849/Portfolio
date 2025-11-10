@@ -1,0 +1,19 @@
+++ hostname
+nlp1-c65296c66469acabb7e53258c5523e30-worker-0
+++ whoami
+root
+++ echo 'Run on node: lambda-scalar2'
+Run on node: lambda-scalar2
++++ date
+++ echo bootstrap starts at 'Fri Jun 20 10:55:13 UTC 2025'
+bootstrap starts at Fri Jun 20 10:55:13 UTC 2025
+++ '[' -n True ']'
+++ echo 'skip ssh setup'
+skip ssh setup
+++ execute_prestep
+++ '[' -n '' ']'
+++ echo 'No AMLARC_PRESTEP defined, skip this step'
+No AMLARC_PRESTEP defined, skip this step
++++ date
+++ echo bootstrap ends at 'Fri Jun 20 10:55:13 UTC 2025'
+bootstrap ends at Fri Jun 20 10:55:13 UTC 2025

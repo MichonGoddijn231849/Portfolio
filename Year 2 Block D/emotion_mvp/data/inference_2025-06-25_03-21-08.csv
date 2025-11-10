@@ -1,0 +1,4 @@
+timestamp,input,language,translated,emotion,csv
+2025-06-25T01:22:37Z,C:\Users\jimal\AppData\Local\Temp\pytest-of-jimal\pytest-33\test_predict_any_plans_basic_0\input.txt,en,,,data\transcripts\input_emotion.csv
+2025-06-25T01:24:15Z,C:\Users\jimal\AppData\Local\Temp\pytest-of-jimal\pytest-33\test_predict_any_plans_plus_0\input.txt,en,,,data\transcripts\input_emotion.csv
+2025-06-25T01:25:52Z,C:\Users\jimal\AppData\Local\Temp\pytest-of-jimal\pytest-33\test_predict_any_plans_pro_0\input.txt,en,,,data\transcripts\input_emotion.csv

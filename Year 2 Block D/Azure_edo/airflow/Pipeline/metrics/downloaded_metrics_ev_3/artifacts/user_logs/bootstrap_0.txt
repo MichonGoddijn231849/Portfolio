@@ -1,0 +1,26 @@
+++ LOG_DIR=/tmp/azureml/cr/j/045c97bb44e8410ab037d2b171b585e1/cap/lifecycler/wd/.azureml_cr_log
+++ LOG_FILE=/tmp/azureml/cr/j/045c97bb44e8410ab037d2b171b585e1/cap/lifecycler/wd/.azureml_cr_log/amlarc_cr_bootstrap.log
+++ '[' '!' -d /tmp/azureml/cr/j/045c97bb44e8410ab037d2b171b585e1/cap/lifecycler/wd/.azureml_cr_log ']'
+++ touch /tmp/azureml/cr/j/045c97bb44e8410ab037d2b171b585e1/cap/lifecycler/wd/.azureml_cr_log/amlarc_cr_bootstrap.log
+++ chmod 777 /tmp/azureml/cr/j/045c97bb44e8410ab037d2b171b585e1/cap/lifecycler/wd/.azureml_cr_log/amlarc_cr_bootstrap.log
+++ exec
++++ tee -a /tmp/azureml/cr/j/045c97bb44e8410ab037d2b171b585e1/cap/lifecycler/wd/.azureml_cr_log/amlarc_cr_bootstrap.log
+++ hostname
+nlp1-dfda6c292cf142b77ebe8723b913a56a-worker-0
+++ whoami
+root
+++ echo 'Run on node: lambda-scalar2'
+Run on node: lambda-scalar2
++++ date
+++ echo bootstrap starts at 'Fri Jun 20 10:53:22 UTC 2025'
+bootstrap starts at Fri Jun 20 10:53:22 UTC 2025
+++ '[' -n True ']'
+++ echo 'skip ssh setup'
+skip ssh setup
+++ execute_prestep
+++ '[' -n '' ']'
+++ echo 'No AMLARC_PRESTEP defined, skip this step'
+No AMLARC_PRESTEP defined, skip this step
++++ date
+++ echo bootstrap ends at 'Fri Jun 20 10:53:22 UTC 2025'
+bootstrap ends at Fri Jun 20 10:53:22 UTC 2025

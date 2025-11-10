@@ -1,0 +1,289 @@
+CUDA available? True
+  0%|          | 0/13 [00:00<?, ?it/s]100%|██████████| 13/13 [00:00<00:00, 165.21it/s]
+{
+  "admiration": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8.0
+  },
+  "amusement": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6.0
+  },
+  "anger": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "annoyance": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "approval": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5.0
+  },
+  "caring": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "confusion": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "curiosity": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "desire": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "disappointment": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5.0
+  },
+  "disapproval": {
+    "precision": 0.03571428571428571,
+    "recall": 0.14285714285714285,
+    "f1-score": 0.05714285714285714,
+    "support": 7.0
+  },
+  "disgust": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "embarrassment": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "excitement": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3.0
+  },
+  "fear": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5.0
+  },
+  "gratitude": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3.0
+  },
+  "grief": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "joy": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "love": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5.0
+  },
+  "nervousness": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "neutral": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "optimism": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "pride": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3.0
+  },
+  "realization": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "relief": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "remorse": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "sadness": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "surprise": {
+    "precision": 0.26153846153846155,
+    "recall": 0.6296296296296297,
+    "f1-score": 0.3695652173913043,
+    "support": 27.0
+  },
+  "accuracy": 0.18,
+  "macro avg": {
+    "precision": 0.010616169544740973,
+    "recall": 0.02758881330309902,
+    "f1-score": 0.015239574090505767,
+    "support": 100.0
+  },
+  "weighted avg": {
+    "precision": 0.07311538461538462,
+    "recall": 0.18,
+    "f1-score": 0.10378260869565217,
+    "support": 100.0
+  },
+  "predictions": [
+    "neutral",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "excitement",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "disapproval",
+    "disapproval",
+    "neutral",
+    "neutral",
+    "neutral",
+    "approval",
+    "disapproval",
+    "neutral",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "amusement",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "disapproval",
+    "admiration",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "disapproval",
+    "disapproval",
+    "disapproval",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "admiration",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "neutral",
+    "disapproval",
+    "neutral",
+    "neutral",
+    "neutral",
+    "disapproval",
+    "approval",
+    "neutral",
+    "surprise"
+  ]
+}
+🏃 View run ev at: https://westeurope.api.azureml.ms/mlflow/v2.0/subscriptions/0a94de80-6d3b-49f2-b3e9-ec5818862801/resourceGroups/buas-y2/providers/Microsoft.MachineLearningServices/workspaces/NLP1-2025/#/experiments/f9901928-f08d-4feb-9308-2e9fb3cff5b7/runs/83990546-d5ff-41c0-8ec4-8f8e8ad8e9cd
+🧪 View experiment at: https://westeurope.api.azureml.ms/mlflow/v2.0/subscriptions/0a94de80-6d3b-49f2-b3e9-ec5818862801/resourceGroups/buas-y2/providers/Microsoft.MachineLearningServices/workspaces/NLP1-2025/#/experiments/f9901928-f08d-4feb-9308-2e9fb3cff5b7

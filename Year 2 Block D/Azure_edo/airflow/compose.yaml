@@ -1,0 +1,160 @@
+version: "3.9"
+
+# ─── Shared environment‐vars anchor ────────────────────────────────
+x-airflow-common-env: &airflow-common-env
+  # Core & executor
+  AIRFLOW__CORE__EXECUTOR: CeleryExecutor
+  AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+  AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
+  AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
+
+  # Security & startup
+  AIRFLOW__CORE__FERNET_KEY: ""
+  AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+  AIRFLOW__CORE__LOAD_EXAMPLES: 'true'
+  AIRFLOW__API__AUTH_BACKENDS: airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session
+
+  # Scheduler health-check
+  AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
+
+  # Extra pip requirements (if any)
+  _PIP_ADDITIONAL_REQUIREMENTS: "${_PIP_ADDITIONAL_REQUIREMENTS:-}"
+
+  # FIX: disable proxy log serving to avoid 403s
+  AIRFLOW__LOGGING__ENABLE_PROXY_LOG_SERVING: 'False'
+
+# ─── Shared service defaults ────────────────────────────────────────
+x-airflow-common: &airflow-common
+  build: .
+  env_file:
+    - .env
+  environment:
+    <<: *airflow-common-env
+  volumes:
+    - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
+    - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
+    - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
+    - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+    # your transcripts data mount:
+    - /data/compose/718/2934e9133cb0de693e31770cff22221df5e9adb3/Finial_pipeline/data/transcripts:/opt/airflow/data
+    # your Pipeline code
+    - ./Pipeline:/opt/airflow/Pipeline
+    # keep your dag file where it is
+    - ${AIRFLOW_HOME}/dags/retrain_on_new_csv.py
+  user: "${AIRFLOW_UID:-50000}:0"
+  depends_on:
+    redis:
+      condition: service_healthy
+    postgres:
+      condition: service_healthy
+
+services:
+  # ─── Postgres ─────────────────────────────────────────────────────
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-U", "airflow" ]
+      interval: 10s
+      retries: 5
+      start_period: 5s
+    restart: always
+
+  # ─── Redis ────────────────────────────────────────────────────────
+  redis:
+    image: redis:7.2-bookworm
+    expose:
+      - 6379
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 10s
+      timeout: 30s
+      retries: 50
+      start_period: 30s
+    restart: always
+
+  # ─── Webserver ────────────────────────────────────────────────────
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: [ "CMD", "curl", "--fail", "http://localhost:8080/health" ]
+      interval: 30s
+      retries: 5
+      start_period: 30s
+    restart: always
+
+  # ─── Scheduler ────────────────────────────────────────────────────
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test: [ "CMD", "curl", "--fail", "http://localhost:8974/health" ]
+      interval: 30s
+      retries: 5
+      start_period: 30s
+    restart: always
+
+  # ─── Worker ────────────────────────────────────────────────────────
+  airflow-worker:
+    <<: *airflow-common
+    command: celery worker
+    environment:
+      <<: *airflow-common-env
+      # required for clean worker shutdown
+      DUMB_INIT_SETSID: "0"
+    healthcheck:
+      test:
+        - "CMD-SHELL"
+        - >
+          celery --app airflow.providers.celery.executors.celery_executor.app
+          inspect ping -d "celery@$${HOSTNAME}"
+          || celery --app airflow.executors.celery_executor.app
+             inspect ping -d "celery@$${HOSTNAME}"
+      interval: 30s
+      retries: 5
+      start_period: 30s
+    restart: always
+
+  # ─── Triggerer ────────────────────────────────────────────────────
+  airflow-triggerer:
+    <<: *airflow-common
+    command: triggerer
+    healthcheck:
+      test: [ "CMD", "airflow", "jobs", "check", "--job-type", "TriggererJob", "--hostname", "$${HOSTNAME}" ]
+      interval: 30s
+      retries: 5
+      start_period: 30s
+    restart: always
+
+  # ─── Init (migrations & user bootstrap) ───────────────────────────
+  airflow-init:
+    <<: *airflow-common
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        # run migrations & create admin user
+        export _AIRFLOW_DB_MIGRATE=true
+        export _AIRFLOW_WWW_USER_CREATE=true
+        export _AIRFLOW_WWW_USER_USERNAME=${_AIRFLOW_WWW_USER_USERNAME:-airflow}
+        export _AIRFLOW_WWW_USER_PASSWORD=${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
+        airflow db upgrade
+        airflow users create \
+          --username "$_AIRFLOW_WWW_USER_USERNAME" \
+          --firstname Admin \
+          --lastname User \
+          --role Admin \
+          --email admin@example.com
+    user: "0:0"
+    restart: "no"
+
+volumes:
+  postgres-db-volume:

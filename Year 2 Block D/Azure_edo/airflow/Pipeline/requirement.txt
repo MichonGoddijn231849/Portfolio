@@ -1,0 +1,18 @@
+# Azure ML–to–MLflow integration
+azureml-mlflow>=1.50.0
+azureml-core>=1.50.0
+# Experiment tracking
+mlflow>=2.0.0
+
+# Data wrangling
+pandas>=1.0.0
+numpy>=1.18.0
+
+# Modeling & tokenization
+torch>=1.9.0
+transformers>=4.0.0
+
+# Utilities
+scikit-learn>=0.24.0
+azure-ai-ml>=1.0.0
+azure-identity>=1.5.0
