@@ -75,7 +75,7 @@ pip install openpyxl
 
 **Michon Goddijn**  
 Data Science & AI Student | Breda University of Applied Sciences  
-[LinkedIn](#) | [Portfolio](https://michongoddijn.com)
+[LinkedIn](www.linkedin.com/in/michongoddijn) | [Portfolio](https://michongoddijn.com)
 
 ## 📄 License
 

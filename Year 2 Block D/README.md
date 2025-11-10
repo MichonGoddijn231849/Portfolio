@@ -39,7 +39,6 @@ Developed for Content Intelligence Agency to analyze emotional content in TV sho
 
 ## 📁 Project Structure
 ```
-emotion-detection-mlops/
 ├── emotion_mvp/              # Core Python package
 │   ├── pipeline.py          # Main processing pipeline
 │   ├── transcriber.py       # Whisper audio transcription
@@ -164,6 +163,12 @@ Through this project, I developed expertise in:
 - Christopher Schreuder
 
 **Project Management:** Agile Scrum with 5 two-week sprints using Azure DevOps
+
+## 👤 Author
+
+**Michon Goddijn**  
+Data Science & AI Student | Breda University of Applied Sciences  
+[LinkedIn](www.linkedin.com/in/michongoddijn) | [Portfolio](https://michongoddijn.com) | [Email](mailto:michon.goddijn@icloud.com)
 
 ## 🙏 Acknowledgments
 

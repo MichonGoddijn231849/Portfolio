@@ -221,7 +221,7 @@ Through this project, I developed expertise in:
 
 **Michon Goddijn**  
 Data Science & AI Student | Breda University of Applied Sciences  
-[LinkedIn](#) | [Portfolio](https://michongoddijn.com) | [Email](mailto:michon.goddijn@icloud.com)
+[LinkedIn](www.linkedin.com/in/michongoddijn) | [Portfolio](https://michongoddijn.com) | [Email](mailto:michon.goddijn@icloud.com)
 
 ## 🙏 Acknowledgments
 
